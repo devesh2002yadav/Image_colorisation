@@ -25,6 +25,12 @@ We would try to colorise the images provided as black and white into their sough
 **3)**	We would use L*a*b color scheme, so does most of people for image colorization, because we would provide the Lightness channel image (which is already grayscale) and we have predict only two numbers of ***a** and ***b** channel which is easier than using rgb color scheme and predicting 3 numbers.
 
 
+![rgb vs lab image](https://user-images.githubusercontent.com/77203935/176385057-3522fc85-d623-4ee6-a879-a46c8f5a1354.png)
+![rgb vs lab img](https://user-images.githubusercontent.com/77203935/176385089-29ac40ea-9906-4dee-8632-5d09523a03fa.jpg)
+![image proj lab main](https://user-images.githubusercontent.com/77203935/176385148-1aedff41-90db-48a2-9503-2c2e066705f9.jpeg)
+
+
+
 **Approach to solve the problem –**
 
 There are ways to solve this, people have used classification and regression for this purpose but they have their pros and cons . We will be using Image to image translation using Conditional Adversarial networks. In this we would have two losses, 1) L1 Loss – regression loss and 2) GAN Loss. 
