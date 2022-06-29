@@ -3,6 +3,8 @@ Hello Everyone! I have made this project of image colorisation using Conditional
 There is a amazing use case of Deep learning, that we will be using here i.e. Colorization of black and white images.  We will be deploying this project in Google Colab notebook using PyTorch library and with some knowledge of Deep learning, Nueral networks, generative adversarial network(GANs) .
 
 
+Here is the pdf for your help - file:///C:/Users/Devesh%20Yadav/Downloads/image%20colorisation%20project%20pdf.pdf
+
 
 **Problem overview -**
 
@@ -109,6 +111,7 @@ https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 Colorization Using ConvNet and GAN
 
 http://cs231n.stanford.edu/reports/2017/pdfs/302.pdf
+
 
 
 **Code part**
