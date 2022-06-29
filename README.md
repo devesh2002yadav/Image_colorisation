@@ -74,3 +74,22 @@ We will combine this loss function with L1 Loss ( which is known as mean absolut
 
 ![l1 loss fgxn](https://user-images.githubusercontent.com/77203935/176387528-142f0861-0a4e-43e8-aa10-8d2ed6100a95.jpeg)
 
+
+
+So  this was about basic theory, You can read more about GANs in the paper link I have provided here. So now lets jump to the code. I have implemented it in the Google Colab notebook , but you can also use Jupyter notebook for this. 
+
+
+**Resources -**
+
+
+Paper about details of GANs - 
+
+https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+
+Paper about Image-to-Image Translation with Conditional Adversarial Networks - 
+
+https://arxiv.org/abs/1611.07004
+
+Getting started with Google colab -
+
+https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
