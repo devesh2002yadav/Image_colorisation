@@ -18,7 +18,7 @@ We would try to colorise the images provided as black and white into their sough
 **2)	LAB color scheme –** In L*a*b scheme also, we have 3 numbers, where ‘l’ represents extent of lightness in photo, **a** represents the extent of green-red color in photo and **b** tells about how much of blue-yellow is there in photo. Below examples helps in understanding the concept.
 
 
-![lab eg main img](https://user-images.githubusercontent.com/77203935/176383422-8fbb19d9-8b1a-4610-a5cb-d23ffe7e187c.jpg)
+![lab eg main img](https://user-images.githubusercontent.com/77203935/176383422-8fbb19d9-8b1a-4610-a5cb-d23ffe7e187c.jpg)  This is main image
 ![lab eg img](https://user-images.githubusercontent.com/77203935/176383454-1dd744e3-8ad9-4222-ab97-a7ad3c581e36.jpg)
 
 
