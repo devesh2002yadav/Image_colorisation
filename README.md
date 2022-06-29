@@ -3,7 +3,7 @@ Hello Everyone! I have made this project of image colorisation using Conditional
 There is a amazing use case of Deep learning, that we will be using here i.e. Colorization of black and white images.  We will be deploying this project in Google Colab notebook using PyTorch library and with some knowledge of Deep learning, Nueral networks, generative adversarial network(GANs) .
 
 
-You can also check the pdf in files named as  - [Image colorisation Pdf](file:///C:/Users/Devesh%20Yadav/Downloads/image%20colorisation%20project%20pdf.pdf)
+You can also check the pdf in files named as  - [Image colorisation Pdf](https://drive.google.com/file/d/1nF-B1mYtvf-ba00Aydewcu6EXT0rsIG7/view?usp=sharing)
 
 Here is my colab Notebook link - [Devesh Colab Link](https://colab.research.google.com/drive/1Bm1mZEZKC6TOizxWie6uhxYros-Vj9L3?authuser=1#scrollTo=XwZs6-Gu_ZWF)
 
