@@ -68,3 +68,9 @@ In our project, the generator model will take a grayscale image (1ightness chann
 
 Considering x as the grayscale image,  y as the 2-channel output we want from the generator (it can also represent the 2 color channels of a real image) and z as the input noise for the generator. Also, G is the generator model and D is the discriminator. Then the loss for our conditional GAN will look like this – 
 
+![Cond GAN loss img](https://user-images.githubusercontent.com/77203935/176386580-79d7709e-10a1-4c7c-89b0-ab09474fec5d.png)
+
+We will combine this loss function with L1 Loss ( which is known as mean absolute error) –
+
+![l1 loss fgxn](https://user-images.githubusercontent.com/77203935/176387528-142f0861-0a4e-43e8-aa10-8d2ed6100a95.jpeg)
+
