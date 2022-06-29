@@ -105,3 +105,72 @@ https://arxiv.org/abs/1611.07004
 Getting started with Google colab -
 
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
+
+
+**Section 1)** Loading the image path required – 
+
+We will be using 7500 images for training from COCO dataset.
+
+
+**Section 2)** Preparing Colab for running the code –
+
+A)	Installing fastai – Also change the runtime type to GPU hardware accelerator in order to train the model faster. 
+The following will install 20,000 images from COCO dataset but we will use only 7500 of them, you can use other datasets also like ImageNET etc. 
+This will randomly show 10*5 images from the dataset.
+
+
+**Section 3)** Making Datasets and Data Loaders – 
+
+
+**Section 4)** Making Generator using U-NET – 
+This piece of code will implement a U-Net to be used as the generator of our GAN.
+
+
+**Section 4)** Making the Discriminator - 
+
+
+**Section 5)** GAN loss function – 
+
+
+**Section 6)** Initialisation of the model – 
+
+
+**Section 7)** Combining the things - 
+
+
+**Section 8)** Some utility functions - 
+
+
+**Section 9)** Finally! Training the function – 
+
+I have used 25 epochs due to time constraint, You can use more , like 50, 100 . The more you train the more better results  you will see. One epoch may take 5-7 minutes 
+
+You will see that the model is giving considerable results, but not so perfect , for that we would try a new thing . Lets see!
+
+
+**Section 10)** Strategy change  –  New generator 
+Make sure you have installed the pip fastai version 2.4 .
+
+
+**Section 11)** Pretraining the generator – 
+This will do our work , it will make complex things easier and better. 
+Train it for 15-20 epochs .
+
+
+**Section 12)** Combining the things – again! – 
+
+Train the  model for something 20 epochs to see the good results.
+
+You will notice there is a significant difference in this and the previous one approach.
+
+Attaching some results :) - 
+
+
+
+
+
+**Better quality colorisation can be obtained by training a large dataset and training it fore a lot of epochs. I have done this for an illustration.**
+
+
+**Thanks for reading. **
+
