@@ -26,7 +26,23 @@ We would try to colorise the images provided as black and white into their sough
 
 
 ![rgb vs lab image](https://user-images.githubusercontent.com/77203935/176385057-3522fc85-d623-4ee6-a879-a46c8f5a1354.png)
+
+
+
+**Visualisation of RBG vs L*a*b -**
+
+
 ![rgb vs lab img](https://user-images.githubusercontent.com/77203935/176385089-29ac40ea-9906-4dee-8632-5d09523a03fa.jpg)
+
+
+
+**Example of RGB and L*a*b scheme through a picture-**
+
+
+![image proj rgb main](https://user-images.githubusercontent.com/77203935/176385666-77f9dd3f-7870-4293-9e7a-364c27fe5087.jpeg)
+
+
+
 ![image proj lab main](https://user-images.githubusercontent.com/77203935/176385148-1aedff41-90db-48a2-9503-2c2e066705f9.jpeg)
 
 
