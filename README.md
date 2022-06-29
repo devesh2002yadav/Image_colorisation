@@ -3,8 +3,11 @@ Hello Everyone! I have made this project of image colorisation using Conditional
 There is a amazing use case of Deep learning, that we will be using here i.e. Colorization of black and white images.  We will be deploying this project in Google Colab notebook using PyTorch library and with some knowledge of Deep learning, Nueral networks, generative adversarial network(GANs) .
 
 
+
 **Problem overview -**
+
 We would try to colorise the images provided as black and white into their sought ‘real’ colours. 
+
 
 
 **Understanding Basics –** 
@@ -15,11 +18,13 @@ We would try to colorise the images provided as black and white into their sough
 ![RGB-image-and-its-three-components](https://user-images.githubusercontent.com/77203935/176382601-8e47ef1c-8897-4b39-bcb5-9f77a092af09.png)
 
 
+
 **2)	LAB color scheme –** In L*a*b scheme also, we have 3 numbers, where ‘l’ represents extent of lightness in photo, **a** represents the extent of green-red color in photo and **b** tells about how much of blue-yellow is there in photo. Below examples helps in understanding the concept.
 
 
 ![lab eg main img](https://user-images.githubusercontent.com/77203935/176383422-8fbb19d9-8b1a-4610-a5cb-d23ffe7e187c.jpg)
 ![lab eg img](https://user-images.githubusercontent.com/77203935/176383454-1dd744e3-8ad9-4222-ab97-a7ad3c581e36.jpg)
+
 
 
 **3)**	We would use L*a*b color scheme, so does most of people for image colorization, because we would provide the Lightness channel image (which is already grayscale) and we have predict only two numbers of ***a** and ***b** channel which is easier than using rgb color scheme and predicting 3 numbers.
@@ -36,20 +41,21 @@ We would try to colorise the images provided as black and white into their sough
 
 
 
+
 **Example of RGB and L*a*b scheme through a picture-**
 
-
 ![image proj rgb main](https://user-images.githubusercontent.com/77203935/176385666-77f9dd3f-7870-4293-9e7a-364c27fe5087.jpeg)
-
 
 
 ![image proj lab main](https://user-images.githubusercontent.com/77203935/176385148-1aedff41-90db-48a2-9503-2c2e066705f9.jpeg)
 
 
 
+
 **Approach to solve the problem –**
 
 There are ways to solve this, people have used classification and regression for this purpose but they have their pros and cons . We will be using Image to image translation using Conditional Adversarial networks. In this we would have two losses, 1) L1 Loss – regression loss and 2) GAN Loss. 
+
 
 
 **What actually GAN is ? –**
