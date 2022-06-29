@@ -106,6 +106,10 @@ Getting started with Google colab -
 
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 
+Colorization Using ConvNet and GAN
+
+http://cs231n.stanford.edu/reports/2017/pdfs/302.pdf
+
 
 **Code part**
 
