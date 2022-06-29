@@ -19,3 +19,8 @@ class PatchDiscriminator(nn.Module):
         return self.model(x)
        
 PatchDiscriminator(3)
+
+discriminator = PatchDiscriminator(3)
+dummy_input = torch.randn(16, 3, 256, 256) # batch_size, channels, size, size
+out = discriminator(dummy_input)
+out.shape
