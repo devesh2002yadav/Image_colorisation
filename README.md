@@ -107,6 +107,9 @@ Getting started with Google colab -
 https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
 
 
+**Code part**
+
+
 **Section 1)** Loading the image path required – 
 
 We will be using 7500 images for training from COCO dataset.
@@ -151,6 +154,7 @@ Attaching some results :) -
 
 
 ![first one 1](https://user-images.githubusercontent.com/77203935/176417024-e8669a5e-5329-4923-a43c-2c54d8bdfdfc.png)
+
 ![first one 2](https://user-images.githubusercontent.com/77203935/176417311-f0f02824-6356-45b6-bd33-bee9a5f52386.png)
 
 
@@ -179,6 +183,7 @@ Attaching some results, again! :) -
 
 
 ![second 1](https://user-images.githubusercontent.com/77203935/176417185-c72b7594-f967-4b50-9749-ad3823005c29.png)
+
 ![second 2](https://user-images.githubusercontent.com/77203935/176417231-b68f8e9d-1f33-45cd-ad42-3c919c0324c8.png)
 
 
