@@ -1,0 +1,26 @@
+!pip install fastai==2.4
+
+from fastai.data.external import untar_data, URLs
+coco_path = untar_data(URLs.COCO_SAMPLE)
+coco_path = str(coco_path) + "/train_sample"
+use_colab = True
+
+if use_colab == True:
+    path = coco_path
+else:
+    path = "Your path to the dataset"
+    
+paths = glob.glob(path + "/*.jpg") # Grabbing all the image file names
+np.random.seed(123)
+paths_subset = np.random.choice(paths, 10_000, replace=False) # choosing 1000 images randomly
+rand_idxs = np.random.permutation(10_000)
+train_idxs = rand_idxs[:7500] # choosing the first 8000 as training set
+val_idxs = rand_idxs[2500:] # choosing last 2000 as validation set
+train_paths = paths_subset[train_idxs]
+val_paths = paths_subset[val_idxs]
+print(len(train_paths), len(val_paths))
+
+_, axes = plt.subplots(5, 10, figsize=(20, 20))
+for ax, img_path in zip(axes.flatten(), train_paths):
+    ax.imshow(Image.open(img_path))
+    ax.axis("off")
