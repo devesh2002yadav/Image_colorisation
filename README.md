@@ -4,7 +4,7 @@ There is a amazing use case of Deep learning, that we will be using here i.e. Co
 
 
 Here is the pdf for your help - [Image colorisation Pdf][1]
-[1]: file:///C:/Users/Devesh%20Yadav/Downloads/image%20colorisation%20project%20pdf.pdf)
+[1]:file:///C:/Users/Devesh%20Yadav/Downloads/image%20colorisation%20project%20pdf.pdf)
 
 
 **Problem overview -**
